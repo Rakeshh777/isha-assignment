@@ -210,8 +210,7 @@ img {
 
     .banner__text__callButton {
         display: block;
-        margin-left: 30px;
-        margin-left: calc(100% - 315px)/2;
+        margin-left: 65px
     }
 
     .banner__text__clickToSupport {
