@@ -12,7 +12,7 @@ const OurGloriousTamilTemple = ({data}) => {
         <div className='ourGloriousTamilTemple__title'>{tileAndSubtitle.titleText}</div>
         <div className='ourGloriousTamilTemple__subtitle'>{tileAndSubtitle.titleSubtext}</div>
         <div className='ourGloriousTamilTemple__galleryBlock'>
-          <SwiperSlider slides={templeSlides} id='ourGloriousTamilTemple' settings={{pagination: {clickable: true}}}/>
+          <SwiperSlider slides={templeSlides} id='ourGloriousTamilTemple' settings={{pagination: {clickable: true}, autoplay: {delay: 3000,disableOnInteraction: false}}}/>
         </div>
     </div>
   )
