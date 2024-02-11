@@ -51,8 +51,21 @@
 }
 
 .swiper-wrapper {
-    height: 450px !important;
+    height: 415px !important;
 }
+
+
+@media(max-width: 1112px) {
+    .swiper-wrapper {
+        height: 340px !important;
+    }
+}
+
+/* @media(max-width: 834px) {
+    .swiper-wrapper {
+        height: 550px !important;
+    }
+} */
 
 @media(max-width:480px) {
     .prominentVoices__galleryBox {
