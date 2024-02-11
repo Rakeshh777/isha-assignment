@@ -1,0 +1,65 @@
+.ourGloriousTamilTemple {
+    float: left;
+    width: 100%;
+    background-color: #040404;
+    padding-left: 150px;
+    padding-right: 644px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-image: url(https://static.consciousplanet.org/static/assets/img/bg-img.jpg);
+}
+
+.ourGloriousTamilTemple__title {
+    float: left;
+    width: 100%;
+    font-family: "WF-028154-009464-000050", sans-serif;
+    font-size: 1.875em;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.ourGloriousTamilTemple__subtitle {
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 1.125em;
+    font-weight: normal;
+    color: #fff5dc;
+    padding-bottom: 10px;
+    line-height: 1.3;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.ourGloriousTamilTemple__galleryBlock {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+@media(max-width: 1112px) {
+    .ourGloriousTamilTemple {
+        padding-left: 50px;
+        padding-right: 500px;
+    }
+
+}
+
+@media(max-width:834px) {
+    .ourGloriousTamilTemple {
+        padding-top: 40px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media(max-width: 480px) {
+    .ourGloriousTamilTemple {
+        background-image: url(https://static.consciousplanet.org/static/assets/img/bg-img-mob.jpg);
+    }
+}

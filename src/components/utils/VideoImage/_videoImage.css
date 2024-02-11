@@ -1,0 +1,19 @@
+.video-image {
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.video-image::after {
+    content: '';
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url(https://static.consciousplanet.org/static/assets/img/play.svg);
+    background-size: 70px;
+}

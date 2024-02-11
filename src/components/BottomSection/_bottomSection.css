@@ -1,0 +1,80 @@
+.bottomSection__footerLink {
+
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 1.125em;
+    font-weight: normal;
+    color: #764324;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: underline;
+
+}
+
+.bottomSection {
+    float: left;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 630px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-image: url(	https://static.consciousplanet.org/static/assets/img/bg-2.jpg);
+}
+
+.bottomSection__title{
+    float: left;
+    width: 100%;
+    font-family: "WF-028154-009464-000050", sans-serif;
+    font-size: 1.875em;
+    font-weight: bold;
+    color: #28231e;
+    padding-bottom: 10px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.bottomSection__tweetBox {
+    float: left;
+    width: 100%;
+    height: 510px;
+    overflow-y: scroll;
+}
+
+.bottomSection__newsBlock {
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.bottomSection__newsBlock__news {
+    float: left;
+    width: 75%;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+
+.footerTitle {
+    padding-top: 130px;
+}
+
+
+@media(max-width: 1112px) {
+    .bottomSection {
+        padding-left: 50px;
+        padding-right: 500px;
+    }
+}
+
+@media(max-width: 834px) {
+    .bottomSection {
+        padding: 60px 16px;
+    }
+}
+
+@media(max-width: 480px) {
+    .bottomSection__newsBlock__news {
+       margin-left: 50px;
+    }
+}

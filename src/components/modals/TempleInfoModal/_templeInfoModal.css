@@ -1,0 +1,95 @@
+.temple-detail-modal-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.49);
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+
+.temple-detail-modal {
+    width: 597px;
+    box-shadow: 0 0 28px 0 rgba(0, 0, 0, 0.12);
+    background-color: #ffffff;
+    position: relative;
+    z-index: 5;
+    margin-left: calc(50% - 300px);
+}
+
+.temple-detail-modal__close {
+    float: left;
+    width: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+    }
+}
+
+.temple-detail-modal__img {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.temple-detail-modal__summary {
+    width: 100%;
+    padding: 30px;
+    height: 250px;
+    overflow-x: auto;
+}
+
+.temple-detail-modal__summary__title {
+    width: 100%;
+    font-family: "WF-028154-009464-000050", sans-serif;
+    font-size: 1.625em;
+    font-weight: normal;
+    text-align: left;
+    color: #28231e;
+    line-height: 1.3;
+}
+
+.temple-detail-modal__summary__description {
+    width: 100%;
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+    color: #000000;
+    line-height: 1.6;
+}
+
+@media(max-width: 1440px) {
+    .temple-detail-modal {
+        margin-top: 75px;
+    }
+}
+
+@media(max-width: 1112px) {
+    .temple-detail-modal {
+        margin-top: 150px;
+    }
+}
+
+@media(max-width: 834px) {
+    .temple-detail-modal {
+        margin-top: 250px;
+        margin-left: 100px;
+    }
+}
+
+@media(max-width: 480px) {
+    .temple-detail-modal {
+        width: 95%;
+        margin-top: 150px;
+        margin-left: 12px;
+    }
+}

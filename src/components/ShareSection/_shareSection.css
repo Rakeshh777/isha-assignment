@@ -1,0 +1,40 @@
+.right_side_block__shareText {
+    display: none;
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.right_side_block__shareIcons {
+    display: none;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+
+    img {
+        width: 58px;
+        margin-top: -4px;
+        margin-right: 10px;
+    }
+}
+
+.inComponent {
+    display: block ;
+    font-weight: bold;
+}
+
+@media(max-width:480px) {
+    .right_side_block__shareText {
+        display: block;
+    }
+
+    .right_side_block__shareIcons {
+        display: block;
+    }
+}

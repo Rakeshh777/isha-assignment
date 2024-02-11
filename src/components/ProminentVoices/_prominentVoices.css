@@ -1,0 +1,65 @@
+.prominentVoices {
+    float: left;
+    width: 100%;
+    background-color: #040404;
+    padding-left: 150px;
+    padding-right: 644px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.prominentVoices__title {
+    float: left;
+    width: 100%;
+    font-family: "WF-028154-009464-000050", sans-serif;
+    font-size: 1.875em;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.prominentVoices__galleryBox {
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-left: 30px;
+}
+
+@media (max-width: 1112px) {
+    .prominentVoices {
+        padding-left: 50px;
+        padding-right: 500px;
+    }
+    .prominentVoices__galleryBox {
+        padding-left: 0px;
+    }
+}
+
+@media(max-width:834px) {
+    .prominentVoices {
+        padding-top: 40px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 36px;
+    }
+    .prominentVoices__galleryBox {
+        padding-left: 0px;
+    }
+
+}
+
+.swiper-wrapper {
+    height: 450px !important;
+}
+
+@media(max-width:480px) {
+    .prominentVoices__galleryBox {
+        padding-left: 0px;
+    }
+
+    .swiper-wrapper {
+        height: 340px !important;
+    }
+}

@@ -1,0 +1,34 @@
+.seaction__one {
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 644px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    position: relative;
+    background-image: url(https://static.consciousplanet.org/static/assets/img/bg-graphics.jpg);
+
+    
+}
+
+.section__one-content {
+    width: 100%;
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: #28231e;
+    line-height: 1.67;
+    padding-bottom: 10px;
+}
+
+@media(max-width: 1112) {
+    .seaction__one {
+        padding-left: 50px;
+        padding-right: 500px;
+    }
+}
+
+@media(max-width: 834px) {
+    .seaction__one {
+        padding: 40px 16px
+    }
+}

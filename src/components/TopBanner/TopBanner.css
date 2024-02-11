@@ -1,0 +1,221 @@
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 100% ;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner__image {
+    width: 100%;
+}
+
+.banner__image__desktop {
+    display: block;
+}
+
+.banner__image__mobile {
+    display: none;
+}
+
+.banner__playButton {
+    width: 94px;
+    height: 94px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.banner__text {
+    float: left;
+    width: 45%;
+    text-align: left;
+    padding-left: 115px;
+    padding-top: 135px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner__text__title {
+    width: 100%;
+    text-align: left;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 3.5em;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 1.04;
+}
+
+.banner__text__subtitle {
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 1.25em;
+    font-weight: normal;
+    color: #ffffff;
+    padding-top: 40px;
+
+
+    span {
+        font-family: "FedraSansStd-medium", sans-serif;
+        font-size: 1.625em;
+        font-weight: normal;
+        color: #fac654;
+    }
+}
+
+.banner__text__clickToSupport {
+    button {
+        width: 315px;
+        background-color: #febd2c;
+        font-family: "FedraSansStd-medium", sans-serif;
+        font-size: 1.125em;
+        font-weight: bold;
+        color: #28231e;
+        text-align: center;
+        border-radius: 3px;
+        cursor: pointer;
+        user-select: none;
+        padding: 10px 0;
+        margin-top: 25px;
+        text-decoration: none;
+        border: none;
+    }
+}
+
+.banner__text__OR {
+    width: 100%;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 18px;
+    display: none;
+}
+
+.banner__text__callButton {
+    width: 315px;
+    background-color: #febd2c;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    color: #28231e;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    padding: 10px 0;
+    margin-top: 25px;
+    text-decoration: none;
+    border: none;
+    display: none;
+    a {
+        color: #333333;
+        text-decoration: none;
+    }
+
+    img {
+        display: inline-block;
+        width: 26px;
+        line-height: 60px;
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .banner__text {
+        padding-top: 120px;
+    }
+}
+
+@media(max-width: 1112px) {
+    .banner__text {
+        padding-left: 46px;
+        padding-top: 75px;
+        width: 44%;
+    }
+}
+
+@media(max-width: 834px) {
+    .banner__text{
+        width: 100%;
+        top: 5px;
+        padding: 0 50px;
+        text-align: center;
+    }
+    .banner__text__title {
+        text-align: center;
+    }
+
+    .banner__text__subtitle {
+        padding-top: 5px;
+    }
+
+    .banner__text__OR {
+        display: block;
+        font-family: "FedraSansStd-medium", sans-serif;
+        font-size: 1.125em;
+        font-weight: bold;
+    }
+
+
+}
+
+@media(max-width: 480px) {
+    .banner__image__desktop {
+        display: none;
+    }
+
+    .banner__image__mobile {
+        display: block;
+    }
+
+    .banner__playButton {
+        width: 61px;
+        height: 61px;
+        bottom: unset;
+        top: 140px;
+    }
+
+    .banner__text {
+        width: 100%;
+        top: 260px;
+        padding: 0 16px;
+    }
+
+    .banner__text__title {
+        font-family: "FedraSansStd-medium", sans-serif;
+        font-size: 1.875em;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .banner__text__subtitle {
+        font-family: "FedraSansStd-book", sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        text-align: center;
+        padding-top: 27px;
+    }
+
+    .banner__text__callButton {
+        display: block;
+        margin-left: 30px;
+        margin-left: calc(100% - 315px)/2;
+    }
+
+    .banner__text__clickToSupport {
+        margin-left: calc(100% - 435px)/2;
+    }
+}
+

@@ -1,0 +1,104 @@
+.getInvolved {
+    float: left;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 630px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-image: url("https://static.consciousplanet.org/static/assets/img/4498733907_858c1a0945_o copy 2@2x.jpg");
+}
+
+.getInvolved_title {
+    float: left;
+    width: 100%;
+    font-family: "WF-028154-009464-000050", sans-serif;
+    font-size: 1.875em;
+    font-weight: normal;
+    color: #ffffff;
+    padding-bottom: 10px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.getInvolved_subtitle {
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 1.125em;
+    font-weight: normal;
+    color: #fff5dc;
+    padding-bottom: 10px;
+    line-height: 1.3;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.getInvolded__formBox {
+    float: left;
+    width: 445px;
+    margin-left: calc((100% - 445px)/2);
+    margin-top: 37px;
+
+    input {
+        float: left;
+        width: 100%;
+        height: 50px;
+        font-family: "FedraSansStd-book", sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+        color: #656565;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.getInvolved_subscribe {
+    float: left;
+    width: 206px;
+    margin-left: calc((100% - 206px)/2);
+    height: 46px;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #28231e;
+    background-color: #febd2c;
+    text-align: center;
+    line-height: 46px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.getInvolved__bottomText {
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 15px;
+    text-align: center;
+}
+
+@media(max-width:1112px) {
+    .getInvolved {
+        padding-left: 50px;
+        padding-right: 500px;
+    }
+}
+
+@media(max-width:834px) {
+    .getInvolved {
+        padding: 60px 16px;
+    }
+}
+
+@media(max-width: 480px) {
+    .getInvolved_title {
+        font-size: 26px;
+    }
+
+    .getInvolded__formBox {
+        width: 100%;
+        margin-left: 0;
+    }
+}

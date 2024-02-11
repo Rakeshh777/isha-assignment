@@ -1,0 +1,50 @@
+.section__four-temple {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 6px 10px -6px rgba(68, 67, 67, 0.3);
+    background-color: #ffffff;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+
+
+.section__four-temple-image {
+    width: 93px;
+    margin-right: 16px;
+
+    img {
+        width: 93px;
+        height: 102px;
+        object-fit: fill;
+        object-position: center;
+    }
+}
+
+.section__four-temple-name {
+    width: calc(100% - 110px);
+    font-family: "WF-028154-009464-000050", sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #28231e;
+    line-height: 1.37;
+}
+
+.section__four-temple-content {
+    /* width: calc(100% - 110px); */
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 0.875em;
+    font-weight: normal;
+    color: #000000;
+    line-height: 1.6;
+    padding-top: 10px;
+    margin-bottom: 3px;
+
+    p {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin: 0;
+    }
+}

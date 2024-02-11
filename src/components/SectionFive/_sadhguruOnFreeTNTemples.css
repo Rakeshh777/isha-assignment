@@ -1,0 +1,107 @@
+.sadhguruOnFreeTNTemples {
+    float: left;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 644px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-image: url(https://static.consciousplanet.org/static/assets/img/bg-graphics.jpg);
+}
+
+.sadhguruOnFreeTNTemples__title {
+    float: left;
+    width: 100%;
+    font-family: "WF-028154-009464-000050", sans-serif;
+    font-size: 1.875em;
+    font-weight: bold;
+    color: #28231e;
+    padding-bottom: 10px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.sadhguruOnFreeTNTemples__videos {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.sadhguruOnFreeTNTemples__count {
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000;
+    margin: 5px 0;
+    text-align: center;
+}
+
+
+.sadhguruOnFreeTNTemples__button {
+    float: left;
+    width: 196px;
+    margin-left: calc((100% - 196px)/2);
+    height: 46px;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #764324;
+    text-align: center;
+    line-height: 46px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.sadhguruOnFreeTNTemples__video-container{
+    float: left;
+    width: calc((100% - 40px)/2);
+    margin-right: 20px;
+    margin-bottom: 40px;
+    height: 280px;
+    box-shadow: 0px 6px 10px -6px rgba(68, 67, 67, 0.3);
+}
+
+.sadhguruOnFreeTNTemples__video-container-content {
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: #28231e;
+    line-height: 1.41;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+@media(max-width: 1112px) {
+    .sadhguruOnFreeTNTemples {
+        padding-left: 50px;
+        padding-right: 500px;
+    }
+    .sadhguruOnFreeTNTemples__video-container {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 834px) {
+    .sadhguruOnFreeTNTemples{
+        padding: 40px 16px;
+    }
+}
+
+@media(max-width: 480px) {
+    .sadhguruOnFreeTNTemples__title {
+        font-size: 28px;
+    }
+
+    .sadhguruOnFreeTNTemples__video-container {
+        width: 100%;
+        margin-right: 0;
+        height: 400px;
+    }
+}
+   

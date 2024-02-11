@@ -1,0 +1,115 @@
+.section__four {
+    float: left;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 630px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url("https://static.consciousplanet.org/static/assets/img/4498733907_858c1a0945_o copy 2@2x.jpg");
+
+    span {
+        float: right;
+        font-family: "FedraSansStd-medium", sans-serif;
+        font-size: 1em;
+        font-weight: bold;
+        color: #c05a1b;
+        text-align: right;
+    }
+}
+
+.section__four-title {
+    width: 100%;
+    font-family: "WF-028154-009464-000050", sans-serif;
+    font-size: 1.875em;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 10px;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.section__four-subtitle {
+    width: 100%;
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 0.80em;
+    font-weight: normal;
+    color: #ffffff;
+    padding-bottom: 10px;
+    line-height: 1.3;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.section__four-templeInfoBlock {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.section__four-count {
+    width: 100%;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.section__four-loadMoreButton {
+    width: 196px;
+    margin-left: calc((100% - 196px)/2);
+    height: 46px;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #764324;
+    background-color: #ffedcb;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+
+@media(max-width:1112) {
+    .section__four{
+        padding-left: 50px;
+        padding-right: 500px;
+    }
+}
+
+@media(max-width:834px) {
+    .section__four{
+        padding: 60px 16px;
+    }
+}
+
+@media(max-width: 480px) {
+    .section__four-title {
+        font-size: 27px;
+    }
+
+    .section__four-subtitle {
+        display: none;
+    }
+
+    .section__four-temple-image {
+            width: 77px !important;
+            height: 84px !important;
+            img {
+                width: 77px !important;
+                height: 84px !important;
+            }
+    }
+
+
+    .section__four-temple-name {
+        width: 100%;
+        margin-top: 19px;
+    }
+
+    
+}

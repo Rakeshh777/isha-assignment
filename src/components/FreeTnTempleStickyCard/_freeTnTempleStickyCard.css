@@ -1,0 +1,84 @@
+.right_side_block {
+    float: left;
+    width: 416px;
+    position: absolute;
+    top: 70px;
+    right: calc(((100% - 1400px) / 2) + 120px);
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 10px 11px rgba(84, 83, 83, 0.4);
+    z-index: 9;
+}
+
+.fix {
+    position: fixed;
+    top: 100px;
+}
+
+.right_side_block__hashtag {
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.right_side_block__clicktoSupportBtn {
+    float: left;
+    width: 328px;
+    margin-left: calc((100% - 328px)/2);
+    background-color: #febd2c;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    color: #28231e;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    padding: 10px 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border: none;
+}
+
+.right_side_block__subtitle {
+    display: block;
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-book", sans-serif;
+    font-size: 1.625em;
+    font-weight: lighter;
+    color: #000000;
+    text-align: center;
+}
+
+.right_side_block__callText {
+    float: left;
+    width: 100%;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #61351a;
+    text-align: center;
+    padding-top: 5px;
+
+    img {
+        width: 40px
+    }
+}
+
+@media(max-width:1112px) {
+    .right_side_block{
+        right: 25px
+    }
+}
+
+@media(max-width: 834px) {
+    .right_side_block{
+        display: none;
+    }
+}

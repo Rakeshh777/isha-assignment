@@ -1,0 +1,52 @@
+/* .swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.swiper-container-autoheight {
+    height: auto !important;
+} */
+
+.swiper-button-next::after {
+    content: '' !important;
+}
+.swiper-button-prev::after {
+    content: '' !important;
+
+}
+
+.custom-nextButton {
+    background-image: url(https://static.consciousplanet.org/static/assets/img/right-arrow-circle.svg);
+    width: 48px;
+    background-size: 48px;
+    right: -28px !important;
+    left: auto !important;
+    width: 50px !important;
+}
+
+.custom-prevButton {
+    background-image: url(https://static.consciousplanet.org/static/assets/img/left-arrow-circle.svg);
+    width: 48px;
+    background-size: 48px;
+    left: -28px !important;
+    right: auto !important;
+    width: 50px !important;
+}
+
+/* .swiper-pagination-horizontal {
+    bottom: -35px !important;
+} */
+
+.swiper-pagination-bullet {
+    margin: 0 4px !important;
+    background: rgba(255, 255, 255, 0.44) !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #ffebc6 !important;
+}

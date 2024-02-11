@@ -1,0 +1,25 @@
+.load-more-button {
+    border: none !important;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 12px 0 10px;
+    float: left;
+    width: 196px;
+    margin-left: calc((100% - 196px)/2);
+    height: 46px;
+    font-family: "FedraSansStd-medium", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #764324;
+    text-align: center;
+    /* line-height: 46px; */
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.light {
+    color: #764324 !important;
+    background-color: #ffedcb !important;
+}
