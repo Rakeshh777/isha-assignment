@@ -39,7 +39,7 @@ const BottomSection = ({tweetIds}) => {
         <div className='bottomSection__newsBlock'>
             <div className='bottomSection__title'>What Media Says</div>
             <div className='bottomSection__newsBlock__news'>
-                <Slider>{newsBlock}</Slider> 
+                <Slider settings={{autoplay: {delay: 1000,disableOnInteraction: false}}}>{newsBlock}</Slider> 
             </div>
             <div className='bottomSection__title footerTitle'>Press Kit & Downloads</div>
             <a href='#' target='_blank' className='bottomSection__footerLink'>Download Press assets here</a>
