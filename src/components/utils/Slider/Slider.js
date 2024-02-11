@@ -10,11 +10,9 @@ import "swiper/css/pagination";
 const Slider = ({children, settings}) => {
   const prevButtonRef = useRef(null); 
   const nextButtonRef = useRef(null);
-
   return (
     <>
       <Swiper
-        className='swiper-container swiper-container-autoheight'
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}
         navigation={{
