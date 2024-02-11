@@ -1,5 +1,5 @@
 import React from 'react'
-import {Slider, SwiperSlider, SwiperSlide} from '../utils/Slider/Slider'
+import {Slider , SwiperSlide} from '../utils/Slider/Slider'
 import './_bottomSection.css'
 import Tweets from '../TwitterEmbed/Tweets'
 
